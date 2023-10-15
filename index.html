@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>The Star Wars</title>
+<title>The Star Wars World</title>
 <link rel="stylesheet" type="text/css" href="index.css">
 <meta charset="utf-8">
 </head>
 <body>
     <div class="container">
-        
         <img src="logo.jpg" alt="Description" width = "300" height="125"/>
       </div>
-<div class="topnav">
-    <a class="active" href="#home">Home</a>
-    <a href="#movies">Movies</a>
-    <a href="#watch">Where to watch</a>
-    <a href="#about">About</a>
-  </div>
+    <ul class="topnav">
+    <li><a class="active" href="#home">Home</a></li>
+    <li>
+        <a href = "movies.html">Movies</a>
+    <ul class = "dropdown">
+        <li><a href = "#">Prequels</a></li>
+        <li><a href = "#">Originals</a></li>
+        <li><a href = "#">Sequels</a></li>
+        <li><a href = "#">Series</a></li>
+    </ul>
+    </li>
+    <li><a href="streaming.html">Where to watch</a></li>
+    <li><a href="about.html">About</a></li>
+    </ul>
 <p>Welcome to the World of Star Wars! Here you will find reviews to your favorite movies, exclusive backstage videos and pictures and much more!</p>
+<div class = "main">
+<img src="poster.jpg" alt = "Poster" width = "700" height = "350"> 
+</div>
 
 </body>
 </html>
