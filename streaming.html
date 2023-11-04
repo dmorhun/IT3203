@@ -2,11 +2,43 @@
 <html>
     <head>
         <title>The Star Wars</title>
-        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="stylesheet" type="text/css" href="streaming.css">
         <meta charset="utf-8">
     </head>
-
     <body>
-        <h1>This is where to watch page</h1>
+        <div class="container">
+            <img src="logo.jpg" alt="Description" width = "300" height="125"/>
+          </div>
+        <ul class="topnav">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li>
+            <a href = "movies.html">Movies</a>
+        <ul class = "dropdown">
+            <li><a href = "prequels.html">Prequels</a></li>
+            <li><a href = "originals.html">Originals</a></li>
+            <li><a href = "sequels.html">Sequels</a></li>
+            <li><a href = "streaming.html">Series</a></li>
+        </ul>
+        </li>
+        <li><a href="streaming.html">Where to watch</a></li>
+        <li><a href="about.html">About</a></li>
+        </ul>
+        <div class="services">
+            <div class="stream">
+                <p><a href="https://www.disneyplus.com/"><img src="disney.jpeg" alt="disney" width = "500" height="250"></a></p>
+                <div class = "textbox">
+                    <p>Disney+ is the best platform to watch Star Wars movies. </p>
+                </div>
+            </div>
+            <div class="stream">
+                <p><a href="https://www.apple.com/apple-tv-plus/"><img src="apple.png" alt="apple" width="500" height = "250"></a></p>
+                <p>Apple TV is a good alternative, but you have to purchase every movie separately.  </p>
+            </div>
+            <div class="stream">
+                <p><a href="https://www.amazon.com/Amazon-Video/b/?ie=UTF8&node=2858778011&ref_=nav_cs_prime_video"><img src="prime.png" alt="prime" width="500" height = "250"></a></p>
+                <p>Prime Video is a great platform but as with Apple TV you need to puchase an individual movie. </p>
+            </div>
+          </div>
+        <footer>Daria Morhun &copy;The Star Wars World 2023 </footer>
     </body>
 </html>

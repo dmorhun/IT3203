@@ -1,22 +1,32 @@
 body{
-  
     background-size:cover;
   }
   *{
       padding:0;
       font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
+  p{
+      overflow: hidden;
+      text-align: center;
+      font-weight: bold;
+  } 
     .topnav a:hover {
       background-color:cornflowerblue;
       color:white;
     }
     .topnav a.active {
       font-weight: bold;
+      
     }
     .container {
       display: flex;
       flex-direction: column;
       align-items: center; /* Centers content horizontally */
+    }
+    .main {
+      display:flex;
+      flex-direction: column;
+      align-items: center;
     }
     ul {
       background-color:powderblue;
@@ -48,12 +58,6 @@ body{
     ul li:hover ul.dropdown{
       display:block;
       text-align: center;
-    }
-    h1{
-        text-align: center;
-    }
-    form{
-      text-align: center;
       
     }
     footer{
@@ -63,3 +67,18 @@ body{
       padding: 5px;
       margin-top: 15px;
     }
+    .services{
+      display:flex;
+      align-items:flex-start;
+      flex-direction: column;
+    }
+    .stream{
+      transition: transform .2s;
+      float: left;
+      margin-right: 15px;
+
+    }
+    .stream:hover {
+      transform: scale(1.2);
+    }
+  

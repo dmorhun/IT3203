@@ -1,22 +1,38 @@
 body{
-  
     background-size:cover;
   }
   *{
       padding:0;
       font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
+  p{
+      overflow: hidden;
+      text-align: center;
+      font-weight: bold;
+      color:cornflowerblue;
+  } 
     .topnav a:hover {
       background-color:cornflowerblue;
       color:white;
     }
     .topnav a.active {
       font-weight: bold;
+      margin: 0px 0px;
+      
     }
     .container {
       display: flex;
       flex-direction: column;
       align-items: center; /* Centers content horizontally */
+    }
+    .main {
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      background-image: url('background.png');
+      padding-bottom: 2.5rem;
+      margin-top: 0rem;
+      width: 100%;
     }
     ul {
       background-color:powderblue;
@@ -47,19 +63,28 @@ body{
     }
     ul li:hover ul.dropdown{
       display:block;
-      text-align: center;
-    }
-    h1{
-        text-align: center;
-    }
-    form{
-      text-align: center;
-      
+      text-align: center; 
     }
     footer{
-      text-align: center;
-      font-weight: bold;
-      background-color: powderblue;
-      padding: 5px;
-      margin-top: 15px;
-    }
+    text-align: center;
+    font-weight: bold;
+    background-color: powderblue;
+    padding: 5px;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;   
+  }
+  h1{
+    text-align: center;
+  }
+  .column {
+    float: left;
+    padding: 5px;
+    margin-left: 90px;
+    margin-right: 50px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

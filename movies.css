@@ -67,3 +67,10 @@ p{
     clear: both;
     display: table;
   }
+  footer{
+    text-align: center;
+    font-weight: bold;
+    background-color: powderblue;
+    padding: 5px;
+    margin-top: 15px;
+  }
