@@ -25,7 +25,6 @@ p{
     flex-direction: column;
     align-items: center;
     /* Centers content horizontally */
-    width: 100px;
   }
   .main {
     display:flex;
